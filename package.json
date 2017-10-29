@@ -4,6 +4,11 @@
     "keywords": [],
     "name": "archhacks-pebbleheartbeatv2",
     "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
         "displayName": "ArchHacks-PebbleHeartBeatv2",
         "enableMultiJS": true,
         "messageKeys": [],
@@ -13,14 +18,11 @@
         },
         "sdkVersion": "3",
         "targetPlatforms": [
-            "basalt",
-            "chalk",
-            "diorite",
-            "emery"
+            "basalt"
         ],
         "uuid": "4c1d43e7-8535-4c51-9e9a-55ea38e5f58c",
         "watchapp": {
-            "watchface": false
+            "watchface": true
         }
     },
     "version": "1.0.0"
