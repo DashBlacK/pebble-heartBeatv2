@@ -1,0 +1,27 @@
+{
+    "author": "shahbaaz.shakil@hotmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "archhacks-pebbleheartbeatv2",
+    "pebble": {
+        "displayName": "ArchHacks-PebbleHeartBeatv2",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "rocky",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "4c1d43e7-8535-4c51-9e9a-55ea38e5f58c",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "1.0.0"
+}
